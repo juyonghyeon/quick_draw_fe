@@ -3,6 +3,9 @@ import styled from 'styled-components';
 import { MediumButton } from '../../global/components/Buttons';
 import color from '../../global/styles/color';
 import fontsize from '../../global/styles/fontsize';
+import MessageBox from '../../global/components/MessageBox';
+import welcomeImage from '../../global/images/welcome.jpg';
+
 const { dark } = color;
 const { medium } = fontsize;
 
@@ -29,9 +32,19 @@ const StyledForm = styled.form`
   button {
     margin-top: 10px;
   }
+
+  .message {
+    margin: 5px 0;
+  }
+
+  .welcome-image {
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+  }
 `;
 
-const LoginForm = ({ form, onChange, onSubmit }) => {
+const LoginForm = ({ form, onChange, onSubmit, errors }) => {
   return (
     <StyledForm onSubmit={onSubmit} autoComplete="off">
       <input
@@ -41,6 +54,7 @@ const LoginForm = ({ form, onChange, onSubmit }) => {
         value={form.email ?? ''}
         onChange={onChange}
       />
+      <MessageBox theme="danger">{errors.email}</MessageBox>
       <input
         type="password"
         name="password"
@@ -48,9 +62,12 @@ const LoginForm = ({ form, onChange, onSubmit }) => {
         value={form.password ?? ''}
         onChange={onChange}
       />
+      <MessageBox theme="danger">{errors.password}</MessageBox>
+
       <MediumButton type="submit" width="100%">
         로그인
       </MediumButton>
+      <img className="welcome-image" src={welcomeImage} alt="환영이미지" />
     </StyledForm>
   );
 };
