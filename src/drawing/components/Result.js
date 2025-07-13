@@ -60,7 +60,7 @@ const PredictionBox = ({ items, eq, category, className }) => {
       <div className="tit">
         {eq
           ? category + '(을)를 잘 그렸네요!'
-          : '잘 모르겠어요. 혹시 그린 것이 아래 있나요?'}
+          : category + '(와)과 일치하지 않아요. 혹시 그린 것이 아래 있나요?'}
       </div>
       {!eq && (
         <div className="prediction">

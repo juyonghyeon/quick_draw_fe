@@ -6,7 +6,6 @@ import DrawContainer from "../constainers/DrawContainer";
 const Wrapper = styled.div`
     max-width: 500px;
     margin: 15px auto;
-
 `;
 
 const DrawPage = () => {
