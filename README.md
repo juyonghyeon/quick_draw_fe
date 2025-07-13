@@ -47,5 +47,3 @@ onRefresh -> 캔버스 초기화 및 새로운 단어 제공 역할
 ![img_1.png](img_1.png)
 
 ![img_2.png](img_2.png)
-
-![img_3.png](img_3.png)
