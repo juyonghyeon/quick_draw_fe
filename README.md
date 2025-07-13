@@ -43,5 +43,7 @@ onRefresh -> 캔버스 초기화 및 새로운 단어 제공 역할
 
 # 5. 구현 화면
 
-![구현 화면 캡처1.png](구현 화면 캡처1.png)
-![구현 화면 캡처2.png](구현 화면 캡처2.png)
+## Quick_Draw
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
