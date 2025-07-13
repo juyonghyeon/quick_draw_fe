@@ -11,10 +11,9 @@ CNN을 통해 이미지를 분류하는 간단한 웹 페이지를 구성해보�
 
 
 # 3. 기능 설명
-다양한 단어를 랜덤으로 출력하여 이용자에게 주제 제공 <br>
-주제를 그릴 수 있는 캔버스 <br>
-캔버스에 그림을 그리고 '제출'버튼을 누르면 학습된 모델에서 그린 그림이 무엇인지 학습 <br>
-한번 더를 누르면 다시 그릴 수 있게 캔버스를 초기화 및 다른 단어를 제공
+파이썬 파일과 리액트 파일을 다이렉트로 연결 하여 사용 불가<br>
+- 자바를 통해 파이썬 파일을 실행
+- 리액트 웹 페이지에 이미지를 로드하도록 작업
 
 # 4. 코드 리뷰
 ## categoires.js
@@ -37,7 +36,7 @@ onRefresh -> 캔버스 초기화 및 새로운 단어 제공 역할
   el.removeEventListener('mousedown', downHandler);
   el.addEventListener('mousedown', downHandler);
 
-onConfirmDrawing
+## onConfirmDrawing
 - 캔버스에 그려진 이미지를 변환하여 서버로 전송
 - const apiHost = process.env.REACT_APP_API_URL 가상환경 호출을 위해 사용
 - Result.js의 onRefresh 기능을 정의
