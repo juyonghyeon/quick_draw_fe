@@ -2,6 +2,8 @@
 
 # 1. 개요
 Quick Draw 페이지 프론트엔드 작업
+https://github.com/juyonghyeon/quick_draw_dl
+https://github.com/juyonghyeon/quick_draw_be
 
 
 # 2. 기획 이유 및 배경
