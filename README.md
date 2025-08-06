@@ -1,8 +1,10 @@
 # Quick Draw 프론트엔드
 
 # 1. 개요
-Quick Draw 페이지 프론트엔드 작업
-https://github.com/juyonghyeon/quick_draw_dl
+Quick Draw 페이지 프론트엔드 작업 <br>
+
+## 사용한 백엔드
+https://github.com/juyonghyeon/quick_draw_dl <br>
 https://github.com/juyonghyeon/quick_draw_be
 
 
