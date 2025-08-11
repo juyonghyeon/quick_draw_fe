@@ -1,5 +1,5 @@
 # [Quick Draw 프론트엔드](http://adddrawing.koreait.xyz)
-- 사이트 주소 : http://adddrawing.koreait.xyz
+- 배포 사이트 주소 : http://adddrawing.koreait.xyz
 
 # 1. 개요
 Quick Draw 페이지 프론트엔드 작업 <br>
