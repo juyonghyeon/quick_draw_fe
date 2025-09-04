@@ -7,7 +7,7 @@ const color = {
   danger: '#dc3545',
   light: '#f8f9fa',
   dark: '#212529',
-  light_yellow: '#FFFFDA',
+  light_primary: '#FFFFDA',
 };
 
 export default color;

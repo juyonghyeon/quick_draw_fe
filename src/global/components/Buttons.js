@@ -31,4 +31,13 @@ export const MediumButton = styled.button`
   border: 0;
   cursor: pointer;
   box-shadow: 3px 3px 5px ${dark};
+
+  &:hover {
+    filter: brightness(1.1);
+  }
+
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 1px 1px 3px ${dark};
+  }
 `;
