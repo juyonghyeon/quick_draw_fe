@@ -43,7 +43,7 @@ onRefresh -> 캔버스 초기화 및 새로운 단어 제공 역할
 
 ## onConfirmDrawing
 - 캔버스에 그려진 이미지를 변환하여 서버로 전송
-- const apiHost = process.env.REACT_APP_API_URL 가상환경 호출을 위해 사용
+- const apiHost = process.env.REACT_APP_AI_API_URL 가상환경 호출을 위해 사용
 - Result.js의 onRefresh 기능을 정의
 
 # 5. 구현 화면

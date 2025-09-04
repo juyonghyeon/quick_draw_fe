@@ -55,7 +55,7 @@ const DrawContainer = () => {
    * 서버로 전송
    */
   const onConfirmDrawing = useCallback(() => {
-    const apiHost = process.env.REACT_APP_API_URL;
+    const apiHost = process.env.REACT_APP_AI_API_URL;
 
     setLoading(false);
 
