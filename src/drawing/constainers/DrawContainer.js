@@ -62,7 +62,7 @@ const DrawContainer = () => {
     canvas.toBlob(
       (blob) => {
         const formData = new FormData();
-        formData.append('image', blob, 'canvas.jpg');
+        formData.append('file', blob, 'canvas.jpg');
 
         setLoading(true);
         fetch(`${apiHost}/quickdraw/predict`, {
